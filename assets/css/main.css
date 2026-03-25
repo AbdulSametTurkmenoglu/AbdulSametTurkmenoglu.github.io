@@ -3449,6 +3449,36 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 
+/* Custom overrides */
+#header h1 a {
+	font-size: 1.5rem;
+	line-height: 1.2;
+}
+#header img {
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+	border-radius: 50%;
+	display: block;
+	margin: 12px auto 0;
+}
+#main article.post ul {
+	list-style: disc inside;
+	margin: 1em 0;
+	padding-left: 0.8em;
+}
+#main article.post#contact ul li a {
+	color: #2ebaae;
+	font-weight: 600;
+}
+#main article.post#contact ul li {
+	margin-bottom: 0.5em;
+}
+@media screen and (max-width: 980px) {
+	#header h1 a { font-size: 1.25rem; }
+	#header img { width: 100px; height: 100px; }
+}
+
 	@media screen and (max-width: 1280px) {
 
 		#intro {
