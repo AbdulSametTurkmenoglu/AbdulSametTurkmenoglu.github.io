@@ -3609,3 +3609,8 @@ input, select, textarea {
 			}
 
 		}
+/* Custom overrides */
+#sidebar { display: none !important; }
+#search, .search { display: none !important; }
+header#header img[alt='Samet Türkmenoğlu'] { width:120px; height:120px; object-fit:cover; border-radius:50%; }
+
